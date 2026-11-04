@@ -11,7 +11,6 @@ scores = []
 rejouer = "o"
 
 while rejouer == "o":
-    # Génération du nombre mystère
     nombre_mystere = random.randint(1, 100)
     essais = 0
     trouve = False
